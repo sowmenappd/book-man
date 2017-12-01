@@ -14,6 +14,6 @@ public:
 	string ID;
 	bool buyOrder(Bookstore& bs, Book& bk);
 	bool sellOrder(Book bs, int price);
-	bool SetStudent(string nameIn, string id, string passIn, string locationIn, string contactIn);
-
+	bool SetStudent(string nameIn, string id, string passIn, 
+					string locationIn, string contactIn);
 };
