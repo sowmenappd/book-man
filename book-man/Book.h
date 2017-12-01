@@ -1,10 +1,12 @@
 #pragma once
 #include <string>
+#include <map>
+
 using namespace std;
 
 class Book {
 public:
 	void show();
-	map <string, int> p;
+	static map <string, int> p;
 	map <string, int> q;
 };

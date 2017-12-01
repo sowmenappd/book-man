@@ -1,8 +1,6 @@
-#include "book.h"
-#include<string>
-
-class Book{
-	q[L"ULYSSES by James Joyce"] = 100;
+#include "Book.h" 
+/*
+	Book::q.insert(make_pair("ULYSSES by James Joyce", 100));
 	q[L"THE GREAT GATSBY by F.Scott Fitzgerald"] = 100;
 	q[L"A PORTRAIT OF THE ARTIST AS A YOUNG MAN by James Joyce"] = 100;
 	q[L"LOLITA by Vladimir Nabokov"] = 100;
@@ -43,4 +41,4 @@ class Book{
 	p[L"SLAUGHTERHOUSE-FIVE by Kurt Vonnegut"] = 290;
 	p[L"INVISIBLE MAN by Ralph Ellison"] = 300;
 	p[L"NATIVE SON by Richard Wright"] = 310;
-}
+	*/

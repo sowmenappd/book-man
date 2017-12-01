@@ -12,7 +12,7 @@ private:
 public:
 	string name;
 	string ID;
-	bool buyOrder(Bookstore& bs, Book& bk);
+	bool buyOrder(BookStore& bs, Book& bk);
 	bool sellOrder(Book bs, int price);
 	bool SetStudent(string nameIn, string id, string passIn, 
 					string locationIn, string contactIn);

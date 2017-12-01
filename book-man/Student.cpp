@@ -1,8 +1,9 @@
-#include "student.h"
+#include "Student.h"
+#include "BookStore.h"
 #include <string>
 using namespace std;
 
-bool Student::buyOrder(Bookstore& bs, Book& bk) {
+bool Student::buyOrder(BookStore& bs, Book& bk) {
 
 }
 
