@@ -10,6 +10,6 @@ public:
 	int type;
 	bool AppAdmin;
 	bool StoreAdmin;
-	bool SetAdmin(string name, string pass);
+	bool SetAdmin(string nameIn, string passIn);
 	Admin(string name, string pass, int mode);
 };
