@@ -112,6 +112,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="Book.cpp" />
+    <ClCompile Include="BookStore.cpp" />
     <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="Student.cpp" />
   </ItemGroup>
