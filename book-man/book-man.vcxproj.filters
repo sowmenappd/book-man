@@ -13,5 +13,6 @@
     <ClInclude Include="BookStore.h" />
     <ClInclude Include="Database.h" />
     <ClInclude Include="Student.h" />
+    <ClInclude Include="Menu.h" />
   </ItemGroup>
 </Project>

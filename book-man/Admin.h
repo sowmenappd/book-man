@@ -3,11 +3,11 @@
 using namespace std;
 
 class Admin {
-	string pass;
+	string *pass;
 public:
-	string name;
-	bool StoreAdmin;
+	string *name;
 	bool SetAdmin(string nameIn, string passIn);
 	bool SellApproval(string nameIn, int price);
 	Admin(string name, string pass);
+	bool LoginStatus(string nameIn, string passIn);
 };

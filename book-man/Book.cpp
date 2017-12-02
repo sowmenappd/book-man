@@ -18,7 +18,7 @@ void Book::GetBook() {
 	cin >> *quantity;
 }
 
-void Book::EditBook() {
+/*void Book::EditBook() {
 	cout << endl;
 	cout << "Enter Author Name: ";
 	cin >> *author;
@@ -31,7 +31,7 @@ void Book::EditBook() {
 	cout << "Enter Quantity: ";
 	cin >> *quantity;
 }
-
+*/
 void Book::ShowBook() {
 	cout << endl;
 	cout << "Author Name: " << author << endl;
@@ -41,11 +41,11 @@ void Book::ShowBook() {
 	cout << "Quantity of book: " << *quantity << endl;
 }
 
-int Book::SearchBook(const char* BuyBook, const char* BuyAuthor) {
+bool Book::SearchBook(const char* BuyBook, const char* BuyAuthor) {
 	if (strcmp(BuyBook, name) == 0 && strcmp(BuyAuthor, author) == 0)
-		return 1;
+		return true;
 	else
-		return 0;
+		return false;
 }
 
 void Book::BuyBook() {
@@ -78,4 +78,12 @@ Book& Book::SellBook()
 	cin >> *(newBook->quantity);
 
 	return *newBook;
+}
+
+void Book::SetBookInfo()
+{
+	cout << "Enter the book title: ";
+	cin >> *name;
+	cout << "Enter the author name: ";
+	cin	>> *author; 
 }

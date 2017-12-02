@@ -4,11 +4,10 @@
 
 
 class Book {
-private:
+public:
 	char *author, *name, *publisher;
 	float *price;
 	int *quantity;
-public:
 	Book() {
 		author = new char[];
 		name = new char[];
@@ -17,9 +16,11 @@ public:
 		quantity = new int;
 	}
 	void GetBook();
-	void EditBook();
+	//void EditBook();
 	void ShowBook();
-	int SearchBook(const char* BuyBook, const char* BuyAuthor);
+	bool SearchBook(const char* BuyBook, const char* BuyAuthor);
 	void BuyBook();
 	Book& SellBook();
+	//void SetAuthor();
+	void SetBookInfo();
 };

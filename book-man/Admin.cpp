@@ -1,25 +1,27 @@
 #include "Admin.h"
-
+#include "Student.h"
 bool Admin::SetAdmin(string nameIn, string passIn)
 {
-	name = nameIn;
-	pass = passIn;
+	*name = nameIn;
+	*pass = passIn;
 }
 
-Admin::Admin(string nameIn, string passIn, int mode)
+bool Admin::SellApproval(Student s,string nameIn, int price)
 {
-	name = nameIn;
-	pass = passIn;
-	type = mode;
+	if(s.sellOrder(nameIn, price))
+	return false;
+}
 
-	if (type == 1)
-	{
-		AppAdmin = true;
-		StoreAdmin = false;
-	}
-	else
-	{
-		AppAdmin = false;
-		StoreAdmin = true;
-	}
+Admin::Admin(string nameIn, string passIn)
+{
+	*name = nameIn;
+	*pass = passIn;
+}
+
+bool Admin::LoginStatus(string nameIn, string passIn)
+{
+	if (nameIn == *name && passIn == *pass)
+		return true;
+	else 
+		return false;
 }

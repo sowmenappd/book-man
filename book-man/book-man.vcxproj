@@ -122,6 +122,7 @@
     <ClInclude Include="Book.h" />
     <ClInclude Include="BookStore.h" />
     <ClInclude Include="Database.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
