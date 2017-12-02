@@ -3,8 +3,15 @@
 using namespace std;
 
 class Book {
+private:
+	char* author, *title, *publisher;
+	float* price;
+	int* stock;
 public:
-	void show();
-	map <string, int> p;
-	map <string, int> q;
+	book();
+	void GetBook;
+	void EditBook;
+	void ShowBook;
+	int SearchBook(char[], char[]);
+	void BuyBook();
 };

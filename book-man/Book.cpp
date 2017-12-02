@@ -1,9 +1,9 @@
-#include "book.h"
+//#include "Book.h"
 #include<string>
 
 class Book{
-	q[L"ULYSSES by James Joyce"] = 100;
-	q[L"THE GREAT GATSBY by F.Scott Fitzgerald"] = 100;
+	q["ULYSSES by James Joyce"] = 100;
+	q["THE GREAT GATSBY by F.Scott Fitzgerald"] = 100;
 	q[L"A PORTRAIT OF THE ARTIST AS A YOUNG MAN by James Joyce"] = 100;
 	q[L"LOLITA by Vladimir Nabokov"] = 100;
 	q[L"BRAVE NEW WORLD by Aldous Huxley"] = 100;
