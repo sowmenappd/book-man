@@ -1,9 +1,10 @@
-#include "student.h"
+#include "Student.h"
 #include <string>
 #include "Book.h"
+#include "BookStore.h"
 using namespace std;
 
-bool Student::buyOrder(Bookstore& bs, Book& bk)
+bool Student::buyOrder(BookStore& bs, Book& bk)
 {
 
 }
@@ -14,7 +15,11 @@ bool Student::sellOrder() {
 	return true;
 }
 
-bool Student::SetStudent(string nameIn, string id, string passIn, string locationIn, string contactIn) {
-
-
+bool Student::SetStudent(string nameIn, string id, string passIn, string locationIn, string contactIn) 
+{
+	*name = nameIn;
+	*ID = id;
+	*pass = passIn;
+	*location = locationIn;
+	*contact = contactIn;
 }

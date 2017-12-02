@@ -1,10 +1,10 @@
 #include "BookStore.h"
-//#include "Book.h"
-void BookStore::show(Admin& admin, Book& bk)
+#include "Book.h"
+void BookStore::show(Admin& admin, BookStore& bk)
 {
-	if (&admin != NULL)
+	if (&admin != NULL & admin.LoginStatus(*admin.name, *bk.pass) == true)
 	{
-
-		bk.ShowBook();
+		for(int i = 0; ; i++)
+			bk[i].ShowBook();
 	}
 }

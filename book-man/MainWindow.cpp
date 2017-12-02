@@ -10,9 +10,6 @@
 #include "Database.h"
 #include "Student.h"
 
-
-
-
 using namespace std;
 // LAST_INDEX = 0;
 bool AdminLogStatus = false;

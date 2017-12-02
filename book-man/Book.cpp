@@ -32,13 +32,12 @@ void Book::GetBook() {
 	cin >> *quantity;
 }
 */
+
 void Book::ShowBook() {
-	cout << endl;
-	cout << "Author Name: " << author << endl;
-	cout << "Book Name: " << name << endl;
-	cout << "Publisher Name: " << publisher << endl;
-	cout << "Price: " << price << endl;
-	cout << "Quantity of book: " << *quantity << endl;
+	//cout << endl;
+	cout << name << " " << author << " " << publisher << " "
+		<< price << " " << *quantity << endl;
+	//cout << "Quantity of book: " << *quantity << endl;
 }
 
 bool Book::SearchBook(const char* BuyBook, const char* BuyAuthor) {
