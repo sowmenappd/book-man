@@ -1,5 +1,8 @@
 // starting our project 
-#include <windows.h>
+//#include <windows.h>
+
+#include <iostream>
+#include <iomanip>
 
 int main()
 {
