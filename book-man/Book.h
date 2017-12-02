@@ -1,17 +1,24 @@
 #pragma once
+#include <iostream>
 #include <string>
 using namespace std;
 
 class Book {
 private:
-	char* author, *title, *publisher;
-	float* price;
-	int* stock;
+	string author, name, publisher;
+	float price;
+	int *quantity;
 public:
-	book();
-	void GetBook;
-	void EditBook;
-	void ShowBook;
-	int SearchBook(char[], char[]);
+	Book() {
+		author = new string;
+		name = new string;
+		publisher = new string;
+		price = new float;
+		quantity = new int;
+	}
+	void GetBook();
+	void EditBook();
+	void ShowBook();
+	int SearchBook(string, string);
 	void BuyBook();
 };
