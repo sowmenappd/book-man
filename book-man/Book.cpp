@@ -1,7 +1,7 @@
 #include "Book.h" 
-/*
+
 	Book::q.insert(make_pair("ULYSSES by James Joyce", 100));
-	q[L"THE GREAT GATSBY by F.Scott Fitzgerald"] = 100;
+	/*q[L"THE GREAT GATSBY by F.Scott Fitzgerald"] = 100;
 	q[L"A PORTRAIT OF THE ARTIST AS A YOUNG MAN by James Joyce"] = 100;
 	q[L"LOLITA by Vladimir Nabokov"] = 100;
 	q[L"BRAVE NEW WORLD by Aldous Huxley"] = 100;
