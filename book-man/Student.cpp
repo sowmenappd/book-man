@@ -3,13 +3,14 @@
 #include "Book.h"
 using namespace std;
 
-bool Student::buyOrder(Bookstore& bs, Book& bk) {
+bool Student::buyOrder(Bookstore& bs, Book& bk)
+{
 
 }
 
 bool Student::sellOrder() {
 	Book *newBook;
-	newBook.GetBook();
+	newBook->SellBook();
 	return true;
 }
 
